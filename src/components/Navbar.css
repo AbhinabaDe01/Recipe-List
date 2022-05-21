@@ -1,0 +1,58 @@
+.navbar {
+    background-color: purple;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.navbar a.brand {
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+}
+
+/* .navbar a:last-child {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: auto;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.navbar a:last-child:hover {
+    background-color: aliceblue;
+    color: black;
+} */
+
+.rc a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: auto;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.rc a:hover{
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+.rc{
+    display: flex; 
+    align-items: center;
+}
+
+.rc .create{
+    margin-left: 20px;
+}
